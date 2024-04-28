@@ -196,7 +196,7 @@ Don't you find it lame that the faucet only gives out 100 XRP? Why don't we crea
 
 You have all the main building blocks: 
 1. you will need to create and fund new wallets with `await client.fundWallet()`
-2. remember you can only transfert XRP up to the reserve, so max 90 XRP at a time for brand new accounts, unless you are brave enough to use a new transaction type? (https://xrpl.org/docs/references/protocol/transactions/types/accountdelete/)
+2. remember you can only transfert XRP up to the reserve, so max 90 XRP at a time for brand new accounts, unless you are brave enough to use a new transaction type? (https://xrpl.org/docs/references/protocol/transactions/types/accountdelete/) but in this case be warned you will have to wait a ledger or two before the account can be deleted!
 3. the final function signature should look something like this `await printMoney({ destinationWallet, client })
 
 I can't wait to see who writes this faster than chatGPT :)
