@@ -295,7 +295,7 @@ don't forget to import `enableRippling`, `createToken`, `createAMM` and `convert
 
 You can now go to the training website at https://trainings.xrpl.at/ (password is training-april-2024) and interact with other pools.
 
-You'll need to setup Xaman with the receiver account that you created above. You can use the family secret import route. If you are new to Xaman don't forget to enable developer mode in the advanced settings and then switch to testnet from the home page of the xaman app. 
+You will need to setup Xaman with the receiver account that you created above. You can use the family secret import route. If you are new to Xaman don't forget to enable developer mode in the advanced settings and then switch to testnet from the home page of the xaman app. 
 
 ## Interact with your pool (swap)
 
