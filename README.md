@@ -18,4 +18,8 @@ Training live sync: https://trainings.xrpl.at/training (password is training-apr
 
 Main XRPL Documentation: https://xrpl.org
 
-Learning Portal: learn.xrpl.org
+Learning Portal: https://learn.xrpl.org
+
+## Check out our events and opportunities at XRPL Commons
+
+https://xrpl-commons.org
