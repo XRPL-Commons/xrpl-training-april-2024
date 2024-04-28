@@ -2,7 +2,7 @@
 
 ## getting started
 
-Before anything else, you are going to want to setup our coding environment.
+Before anything else, you are going to want to setup your coding environment.
 
 Any javascript editor will do and feel free to use your own node environement to follow along with javascript. Most of the code we will use can be run client side as well. 
 
