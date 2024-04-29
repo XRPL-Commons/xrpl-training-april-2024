@@ -201,3 +201,37 @@ You have all the main building blocks:
 
 I can't wait to see who writes this faster than chatGPT :)
 
+Here is the popular printMoney function
+
+```
+import xrpl from "xrpl";
+
+const printMoney = async ({ destinationWallet, client }: any) => {
+  const { wallet: wallet1, balance: balance1 } = await client.fundWallet();
+
+  console.log("wallet1", wallet1);
+
+  const tx: xrpl.Payment = {
+    TransactionType: "Payment",
+    Account: wallet1.classicAddress,
+    Destination: destinationWallet.classicAddress,
+    Amount: xrpl.xrpToDrops("90"),
+  };
+
+  console.log("submitting the payment transaction... ", tx);
+
+  const result = await client.submitAndWait(tx, {
+    autofill: true,
+    wallet: wallet1,
+  });
+
+  console.log(result);
+
+  console.log({
+    "balance 2": await client.getBalances(destinationWallet.classicAddress),
+  });
+};
+
+export default printMoney;
+```
+
