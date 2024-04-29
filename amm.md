@@ -1,5 +1,7 @@
 #Introduction to XRPL
 
+follow along here: https://replit.com/@luc26/AMMLiveSession
+
 ## getting started
 
 Before anything else, you are going to want to setup your coding environment.
